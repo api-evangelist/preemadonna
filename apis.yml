@@ -1,8 +1,25 @@
 aid: preemadonna
 name: Preemadonna
-description: 'Preemadonna is a company surfaced as a portfolio company of version-one-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Preemadonna is a consumer hardware and software company best known for
+  the Nailbot, a compact inkjet nail-art printer that prints custom designs onto fingernails,
+  press-ons, gel, or bare nails in about five seconds. Backed by Version One Ventures,
+  the company is building a creative-expression platform that pairs smart hardware
+  with AI-powered design tools, consumables, and a creator marketplace, delivered
+  through companion iOS and Android apps. The company holds 10+ utility patents. Preemadonna
+  currently exposes no public developer API, SDK, or documentation surface; this profile
+  captures its public web, support, and policy footprint for the API Evangelist network.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://storage.googleapis.com/gpt-engineer-file-uploads/xW3HtMlg82atCesqBL8m7OzMyAe2/social-images/social-1771303329896-NailbotbyPreemadonna.webp
 url: https://raw.githubusercontent.com/api-evangelist/preemadonna/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,11 +29,35 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Consumer
+- Consumer Electronics
+- Hardware
+- Nail Art
+- Beauty
+- AI
+- Mobile App
+- Creator Marketplace
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 apis: []
+common:
+- type: Website
+  url: https://preemadonna.com
+- type: Support
+  url: https://help.preemadonna.com
+  name: Help Center
+- type: PrivacyPolicy
+  url: https://preemadonna.com/privacypolicy
+- type: TermsOfService
+  url: https://preemadonna.com/policies/terms-of-service
+- type: DomainSecurity
+  url: security/preemadonna-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
