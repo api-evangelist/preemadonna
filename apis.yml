@@ -8,6 +8,17 @@ description: 'Preemadonna is a consumer hardware and software company best known
   through companion iOS and Android apps. The company holds 10+ utility patents. Preemadonna
   currently exposes no public developer API, SDK, or documentation surface; this profile
   captures its public web, support, and policy footprint for the API Evangelist network.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
